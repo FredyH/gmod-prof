@@ -12,7 +12,7 @@
 
 To use Gmod Prof simply place this addon in your addon folder.
 
-When ingame you can open the profiler using the following four console commands: profiler_hooks_client, profile_hooks_server,
+When ingame you can open the profiler using the following four console commands: profile_hooks_client, profile_hooks_server,
 profile_net_client, profiler_net_server
 
 You will have to adapt some functions to ensure that only authorized clients can use the profiler, namely you have to override the following function to return true if and only if the player should be allowed to profile (action can be either "hook" or "net").
