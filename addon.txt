@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+        "name"              "Gmod Prof"
+        "version"           "1.0"
+        "author_name"       "Fredy"
+        "author_email"      ""
+        "info"              "A sensible Garry's Mod Profiler"
+        "override"          "0"
+}

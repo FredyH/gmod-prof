@@ -1,0 +1,62 @@
+html {
+    background-color: white
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    flex: 1;
+}
+
+-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Open Sans';
+}
+
+table {
+    font-size: 14px;
+}
+
+tbody > tr {
+    text-align: right;
+}
+
+tbody > tr :first-child {
+    text-align: left;
+}
+/* 
+#incomingChartContainer {
+    position: absolute;
+    height: 50%;
+    width: 50%
+}
+
+#outgoingChartContainer {
+    position: absolute;
+    top: 50%;
+    height: 50%;
+    width: 50%
+}
+
+#incomingTableDiv {
+    position: absolute;
+    left: 53%;
+    top: 0%;
+    height: 50%;
+    width: 47%
+}
+
+#outgoingTableDiv {
+    position: absolute;
+    left: 53%;
+    top: 50%;
+    height: 50%;
+    width: 47%
+} */
